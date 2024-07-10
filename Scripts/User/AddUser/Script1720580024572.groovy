@@ -23,6 +23,8 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
 WebUI.switchToWindowTitle('OrangeHRM')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
 
 WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_login'), 'hUKwJTbofgPU9eVlw/CnDQ==')
